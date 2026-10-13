@@ -1,0 +1,15 @@
+{
+  "catalog_version": "abo-furniture-fixture-v0.1",
+  "source": "Amazon Berkeley Objects",
+  "license": "CC BY 4.0",
+  "media": [
+    {
+      "item_id": "B075X4QMX3",
+      "main_image_id": "814aS-KaUBL",
+      "image_url": "https://your-object-storage.example/abo/B075X4QMX3/main.jpg",
+      "gallery_urls": [],
+      "glb_url": "https://your-object-storage.example/abo/B075X4QMX3/model.glb",
+      "usdz_url": null
+    }
+  ]
+}

@@ -1,0 +1,2067 @@
+{
+  "source": "Amazon Berkeley Objects",
+  "license": "CC BY 4.0",
+  "fixture_version": "abo-furniture-fixture-v0.1",
+  "archive_used": "abo-listings.tar",
+  "downloaded_media": false,
+  "note": "Metadata-only fixture. Full ABO image and 3D archives are intentionally not included.",
+  "products": [
+    {
+      "item_id": "B07CTPR73M",
+      "item_name": "Stone & Beam Stone Brown Swatch, 25020039-01",
+      "brand": "Stone & Beam",
+      "product_type": "SOFA",
+      "style": null,
+      "color": "Stone Brown",
+      "material": null,
+      "main_image_id": "61Rp4qOih9L",
+      "other_image_ids": [],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.co.uk",
+      "node": [
+        "/Home & Garden/Home & Kitchen/Categories/Furniture/Living Room Furniture/Sofas & Couches"
+      ],
+      "item_dimensions": null
+    },
+    {
+      "item_id": "B072ZLCB3M",
+      "item_name": "Amazon Brand – Rivet Bristol Natural Edge Black Metal Side Table, Walnut",
+      "brand": "Rivet",
+      "product_type": "TABLE",
+      "style": "Organic modern",
+      "color": "Brown",
+      "material": "Metal",
+      "main_image_id": "81Xh+yZvD1L",
+      "other_image_ids": [
+        "A1OdfC9iHhL",
+        "91A-nCul3fL",
+        "81D0VezjM9L",
+        "A1UkMa6UHIL",
+        "71-2zou-hDL",
+        "A1Tsz82lxrL",
+        "91sQrJfHRnL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Tables/End Tables"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 18.9
+          },
+          "unit": "inches",
+          "value": 18.9
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 18.9
+          },
+          "unit": "inches",
+          "value": 18.9
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 18.2
+          },
+          "unit": "inches",
+          "value": 18.2
+        }
+      }
+    },
+    {
+      "item_id": "B07TMH6289",
+      "item_name": "AmazonBasics LeatherSoft Kids/Youth Recliner with Armrest Storage, 5+ Age Group, Light Blue",
+      "brand": "AmazonBasics",
+      "product_type": "CHAIR",
+      "style": null,
+      "color": "Light Blue",
+      "material": "Leather",
+      "main_image_id": "71T+bO0FkKL",
+      "other_image_ids": [
+        "918T-x94B3L",
+        "71G+u16bPnL",
+        "717XfaQrSbL",
+        "71jSPkybUsL",
+        "612fFLXTo8L",
+        "51Lrh4K5CHL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Kids' Furniture, Décor & Storage/Kids' Furniture & Décor",
+        "/Categories/Furniture/Kids' Furniture/Chairs & Seats/Recliners"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 27.6
+          },
+          "unit": "inches",
+          "value": 27.6
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 26.8
+          },
+          "unit": "inches",
+          "value": 26.8
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 27.6
+          },
+          "unit": "inches",
+          "value": 27.6
+        }
+      }
+    },
+    {
+      "item_id": "B075X4QMW7",
+      "item_name": "Amazon Brand – Rivet Eva Mid-Century Modern Tufted Velvet Down-Filled Sectional Sofa Couch, 87\"W, Navy",
+      "brand": "Rivet",
+      "product_type": "SOFA",
+      "style": null,
+      "color": "Navy",
+      "material": "Velvet, Hardwood frame, Metal legs",
+      "main_image_id": "81KZp1brWYL",
+      "other_image_ids": [
+        "818WXL2uM1L",
+        "A1P3tPyy2nL",
+        "91G+LmavNML"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Sofas & Couches"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 30.25
+          },
+          "unit": "inches",
+          "value": 30.25
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 35.25
+          },
+          "unit": "inches",
+          "value": 35.25
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 87
+          },
+          "unit": "inches",
+          "value": 87
+        }
+      }
+    },
+    {
+      "item_id": "B07F2X8K62",
+      "item_name": "Amazon Brand – Ravenna Home Radford Modern Curved Arm Accent Chair, 28.15\"W",
+      "brand": "Ravenna Home",
+      "product_type": "CHAIR",
+      "style": null,
+      "color": null,
+      "material": null,
+      "main_image_id": "A1n9ZOzRyQL",
+      "other_image_ids": [
+        "91xjC+-Jb1L",
+        "A1Eol8cImJL",
+        "91j5Hjxm70L",
+        "71klHyTygzL",
+        "A1dvBdgalnL",
+        "91lP48bzGjL",
+        "91Cv9UUBPfL",
+        "A1ohgnsqevL",
+        "A1wbK4qevGL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Chairs"
+      ],
+      "item_dimensions": null
+    },
+    {
+      "item_id": "B075NR8HWJ",
+      "item_name": "scandinavian Design homesick stoel, stof, Style Steel Grey, 100 x 93 x 86 cm",
+      "brand": "Movian",
+      "product_type": "CHAIR",
+      "style": "Chair",
+      "color": "Grau",
+      "material": "Polyester",
+      "main_image_id": "61WTOkHRcZL",
+      "other_image_ids": [
+        "61OzFbSIJTL",
+        "61VbU4DvxqL",
+        "9153MxT1w6L",
+        "61PKeP-0HkL",
+        "71jB27Di2sL",
+        "716KVuMmXlL",
+        "61oz-gCmEtL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.de",
+      "node": [
+        "/Kategorien/Möbel/Wohnzimmer/Sessel & Stühle/Ohren- & Armlehnensessel"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 33.858267682
+          },
+          "unit": "centimeters",
+          "value": 86
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 39.3700787
+          },
+          "unit": "centimeters",
+          "value": 100
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 36.614173191
+          },
+          "unit": "centimeters",
+          "value": 93
+        }
+      }
+    },
+    {
+      "item_id": "B07B4SCB6T",
+      "item_name": "Stone & Beam Tisbury Nailhead Trim Queen Bed, 66\"W, Spinnsol Cocoa",
+      "brand": "Stone & Beam",
+      "product_type": "BED",
+      "style": "beds",
+      "color": "Spinnsol Cocoa",
+      "material": "stone",
+      "main_image_id": "81cVhl8HXmL",
+      "other_image_ids": [
+        "81aLkCO2DiL",
+        "91JtPJ1RluL",
+        "8117b+7avFL",
+        "A1M9ydsbaVL",
+        "91wwXvnuqyL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Bedroom Furniture/Beds, Frames & Bases/Beds"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 56
+          },
+          "unit": "inches",
+          "value": 56
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 66
+          },
+          "unit": "inches",
+          "value": 66
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 92
+          },
+          "unit": "inches",
+          "value": 92
+        }
+      }
+    },
+    {
+      "item_id": "B07CVFV3J6",
+      "item_name": "Stone & Beam Javier Burnished Bronze Bed",
+      "brand": "Stone & Beam",
+      "product_type": "BED",
+      "style": null,
+      "color": null,
+      "material": null,
+      "main_image_id": "81vZtM-Bb0L",
+      "other_image_ids": [
+        "B1xCzMfUaKS",
+        "912NgJuEZpL",
+        "81oTaMwI+mL",
+        "911ax1PsCqL",
+        "81PahE4kCeL",
+        "81r+X7iqWvL",
+        "91RRfiMvqBL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Bedroom Furniture/Beds, Frames & Bases/Beds"
+      ],
+      "item_dimensions": null
+    },
+    {
+      "item_id": "B075WYYHXT",
+      "item_name": "Rivet Navy Swatch, 25010043 Azul Mochila",
+      "brand": "Rivet",
+      "product_type": "BENCH",
+      "style": null,
+      "color": "Marino",
+      "material": null,
+      "main_image_id": "B1R42llOS3S",
+      "other_image_ids": [],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.es",
+      "node": [],
+      "item_dimensions": null
+    },
+    {
+      "item_id": "B075X61WKJ",
+      "item_name": "Amazon Brand – Stone & Beam Norah Leather and Wood Round Ottoman, 39.5\", Saddle Brown",
+      "brand": "Stone & Beam",
+      "product_type": "OTTOMAN",
+      "style": null,
+      "color": "Chaps Saddle",
+      "material": "stone",
+      "main_image_id": "91X+8Y0xhyL",
+      "other_image_ids": [
+        "A1MCesN-faL",
+        "91mdgsctO3L",
+        "91gw1bHlK7L",
+        "A1RUUWdsBaL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Accent Furniture/Ottomans"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 17.25
+          },
+          "unit": "inches",
+          "value": 17.25
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 39.5
+          },
+          "unit": "inches",
+          "value": 39.5
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 39.5
+          },
+          "unit": "inches",
+          "value": 39.5
+        }
+      }
+    },
+    {
+      "item_id": "B07DBFT2YG",
+      "item_name": "Amazon Brand – Ravenna Home Angela Modern Turned Leg Wood Shelf Storage Coffee Table, 44\"W, Grey",
+      "brand": "Ravenna Home",
+      "product_type": "TABLE",
+      "style": "Bold eclectic",
+      "color": "Grey",
+      "material": "wood",
+      "main_image_id": "61LgxujFuOL",
+      "other_image_ids": [
+        "91Zyr3pygsL",
+        "61Xi0VZQb2L",
+        "71BwJXU8tcL",
+        "61bnYAy7zmL",
+        "61bBIQQDYSL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Tables/Coffee Tables"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 20
+          },
+          "unit": "inches",
+          "value": 20
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 22
+          },
+          "unit": "inches",
+          "value": 22
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 44
+          },
+          "unit": "inches",
+          "value": 44
+        }
+      }
+    },
+    {
+      "item_id": "B075WX8GBL",
+      "item_name": "25010030 Nietenmuster Hellblau",
+      "brand": "Rivet",
+      "product_type": "CHAIR",
+      "style": null,
+      "color": "Hellblau",
+      "material": null,
+      "main_image_id": "B1Pgqf7gJuS",
+      "other_image_ids": [],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.de",
+      "node": [
+        "/Kategorien/Möbel/Wohnzimmer/Sessel & Stühle"
+      ],
+      "item_dimensions": null
+    },
+    {
+      "item_id": "B07G2H3L4L",
+      "item_name": "ROSSINI CANOVA 3 SEATER MAXI",
+      "brand": "ROSSINI",
+      "product_type": "SOFA",
+      "style": null,
+      "color": "Grey",
+      "material": null,
+      "main_image_id": "71uyDy+jQcL",
+      "other_image_ids": [
+        "715PtmkrxHL",
+        "51VeIZYHRJL",
+        "71+HPuf4E9L",
+        "81NoARNTc1L",
+        "81wkF+gD8ML",
+        "91VjVKMxr6L",
+        "71Jj58htxfL",
+        "81ARkh6y0pL",
+        "71sLPIS5OSL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.co.uk",
+      "node": [
+        "/Home & Garden/Home & Kitchen/Categories/Furniture/Living Room Furniture/Sofas & Couches"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 36.614173191
+          },
+          "unit": "centimeters",
+          "value": 93
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 40.157480274
+          },
+          "unit": "centimeters",
+          "value": 102
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 91.732283371
+          },
+          "unit": "centimeters",
+          "value": 233
+        }
+      }
+    },
+    {
+      "item_id": "B083H3WMT3",
+      "item_name": "AmazonBasics Classic Faux Leather Extra Padded Recliner Chair - Brown (Renewed)",
+      "brand": "AmazonBasics",
+      "product_type": "CHAIR",
+      "style": null,
+      "color": "Brown",
+      "material": "Polyurethane",
+      "main_image_id": "91udGka1EiL",
+      "other_image_ids": [
+        "81Pqa+usLyL",
+        "91l+Tk4UHnL",
+        "91i9sbTEbZL",
+        "81w95anZYEL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Chairs"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 38.6
+          },
+          "unit": "inches",
+          "value": 38.6
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 32.7
+          },
+          "unit": "inches",
+          "value": 32.7
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 37.4
+          },
+          "unit": "inches",
+          "value": 37.4
+        }
+      }
+    },
+    {
+      "item_id": "B07CSYLG4J",
+      "item_name": "Stone & Beam - Reloj de Pulsera, Color marrón, Piedra y Haz",
+      "brand": "Stone & Beam",
+      "product_type": "CHAIR",
+      "style": null,
+      "color": "Marrón",
+      "material": null,
+      "main_image_id": "71Z0NoClYmL",
+      "other_image_ids": [],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com.mx",
+      "node": [
+        "/Categorías/Muebles/Sala/Sillas"
+      ],
+      "item_dimensions": null
+    },
+    {
+      "item_id": "B07KR9WBN7",
+      "item_name": "Cream Swatch, Ravenna Home",
+      "brand": "Ravenna Home",
+      "product_type": "CHAIR",
+      "style": "Woven Fabric",
+      "color": "Cream",
+      "material": null,
+      "main_image_id": "916B5JgdShL",
+      "other_image_ids": [],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Chairs"
+      ],
+      "item_dimensions": null
+    },
+    {
+      "item_id": "B08CD2924F",
+      "item_name": "Amazon Brand – Rivet Madison Modern Fabric Round Lift-Top Storage Tray Ottoman Pouf, 19.7\"W, Marshmallow (Renewed)",
+      "brand": "Rivet",
+      "product_type": "OTTOMAN",
+      "style": null,
+      "color": "Marshmallow",
+      "material": null,
+      "main_image_id": "919BpwSoX+L",
+      "other_image_ids": [
+        "91nK0td-nfL",
+        "91zfgRNrAdL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Accent Furniture/Ottomans"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 16.1
+          },
+          "unit": "inches",
+          "value": 16.1
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 19.68
+          },
+          "unit": "inches",
+          "value": 19.68
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 19.68
+          },
+          "unit": "inches",
+          "value": 19.68
+        }
+      }
+    },
+    {
+      "item_id": "B07B3XXD3P",
+      "item_name": "Vida Designs Corona Wardrobe, 3 Door, Solid Pine Wood, Solid Pine Wood, Distressed Waxed Pine Bedroom Wooden Storage Mexican Furniture",
+      "brand": "Vida Designs",
+      "product_type": "CABINET",
+      "style": "3 Door Wardrobe",
+      "color": "Black",
+      "material": "Wood",
+      "main_image_id": "814WJICrXwL",
+      "other_image_ids": [
+        "81-xvMdJoNL",
+        "811DmFwz9kL",
+        "81tUX1hXbHL",
+        "812eLdRhn-L",
+        "81gMmSV7GzL",
+        "81Pc5BpovQL",
+        "61NOxTqJitL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.co.uk",
+      "node": [],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 70.078740086
+          },
+          "unit": "centimeters",
+          "value": 178.0
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 19.68503935
+          },
+          "unit": "centimeters",
+          "value": 50.0
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 59.05511805
+          },
+          "unit": "centimeters",
+          "value": 150.0
+        }
+      }
+    },
+    {
+      "item_id": "B07VSV4783",
+      "item_name": "Amazon Brand - Movian Ribe - Divano a 3 posti, 92 x 200 x 85 cm (Lu x La x A), verde scuro",
+      "brand": "Movian",
+      "product_type": "SOFA",
+      "style": "Divano a 3 posti",
+      "color": "Verde Scuro",
+      "material": "Tela",
+      "main_image_id": "81yiaE45j+L",
+      "other_image_ids": [
+        "81qEAy76QOL",
+        "712WRLI-kwL",
+        "71SMXyLQqyL",
+        "61pDpmidYPL",
+        "61hfWCKYzyL",
+        "718OVVrDUKL",
+        "61FDbgEY8cL",
+        "81zgSgE5rcL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.it",
+      "node": [
+        "/Categorie/Arredamento/Soggiorno/Divani"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 33.464566895
+          },
+          "unit": "centimeters",
+          "value": 85
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 36.220472404
+          },
+          "unit": "centimeters",
+          "value": 92
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 78.7401574
+          },
+          "unit": "centimeters",
+          "value": 200
+        }
+      }
+    },
+    {
+      "item_id": "B07DBHCKHY",
+      "item_name": "Amazon Brand – Ravenna Home Tufted Armless English Roll Traditional Accent Chair, 26.8\"W, Merlot Red",
+      "brand": "Ravenna Home",
+      "product_type": "CHAIR",
+      "style": "Glam",
+      "color": "Merlot",
+      "material": "Wood",
+      "main_image_id": "81l+UPz-wZL",
+      "other_image_ids": [
+        "71jbNwghycL",
+        "91OUxxKcckL",
+        "81NRU2g+OXL",
+        "71dZlzB-PsL",
+        "91tuWVdmPoL",
+        "A1ZHZY9fMGL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Chairs"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 30.7
+          },
+          "unit": "inches",
+          "value": 30.7
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 25.2
+          },
+          "unit": "inches",
+          "value": 25.2
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 26.8
+          },
+          "unit": "inches",
+          "value": 26.8
+        }
+      }
+    },
+    {
+      "item_id": "B07NR2M291",
+      "item_name": "AmazonBasics Fauteuil de bureau et de gaming, style course, gris",
+      "brand": "AmazonBasics",
+      "product_type": "CHAIR",
+      "style": "Tissu",
+      "color": "Gris / Noir",
+      "material": "En tissu",
+      "main_image_id": "71S9P-fW9eL",
+      "other_image_ids": [
+        "61hatiSugZL",
+        "81p7yAXvysL",
+        "61mlEIqyqSL",
+        "61dxf+ra7cL",
+        "719MIdZVUIL",
+        "71hMbaN1S+L",
+        "917eKgoqttL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.fr",
+      "node": [
+        "/Catégories/Ameublement et décoration/Meubles/Bureau/Chaises et tabourets/Chaises"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 49.61
+          },
+          "unit": "inches",
+          "value": 49.61
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 21.65
+          },
+          "unit": "inches",
+          "value": 21.65
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 28.74
+          },
+          "unit": "inches",
+          "value": 28.74
+        }
+      }
+    },
+    {
+      "item_id": "B07L3JS4ZX",
+      "item_name": "(Renewed) Amazon Brand - Solimo Floating Wall Shelf, Set of 4 (Matte Finish, Walnut)",
+      "brand": "Amazon Brand - Solimo",
+      "product_type": "FURNITURE",
+      "style": "Contemporary",
+      "color": "Walnut",
+      "material": "MDF",
+      "main_image_id": "81nh4nPkPKL",
+      "other_image_ids": [
+        "71p9iKy7UyL",
+        "71WowbywbpL",
+        "81--zi3pvGL",
+        "71y7ylsR7CL",
+        "71lomsP1rmL",
+        "819zmay7xlL",
+        "71gM95Srh0L"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.in",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Wall Shelves"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 0.70866
+          },
+          "unit": "millimeters",
+          "value": 18
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 20.0787
+          },
+          "unit": "millimeters",
+          "value": 510
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 4.99999
+          },
+          "unit": "millimeters",
+          "value": 127
+        }
+      }
+    },
+    {
+      "item_id": "B082VLYQWX",
+      "item_name": "Amazon Brand – Stone & Beam Westview Extra-Deep Down-Filled Leather Sofa Couch, 89\"W, Dark Grey",
+      "brand": "Stone & Beam",
+      "product_type": "SOFA",
+      "style": null,
+      "color": "Dark Grey",
+      "material": "Leather",
+      "main_image_id": "71+YMq06qWL",
+      "other_image_ids": [
+        "91zCzzwdH4L",
+        "81pjXEyFRLL",
+        "91PCG7ifItL",
+        "A1y9m+3l80L",
+        "71bjJ83hTqL",
+        "81nxJHOvuFL",
+        "71y7qXx1vsL",
+        "91ektBsNXVL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Sofas & Couches"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 31.5
+          },
+          "unit": "inches",
+          "value": 31.5
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 88.98
+          },
+          "unit": "inches",
+          "value": 88.98
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 42.12598425
+          },
+          "unit": "inches",
+          "value": 42.12598425
+        }
+      }
+    },
+    {
+      "item_id": "B07SMJY29H",
+      "item_name": "Marchio Amazon - Alkove Hayes - Tavolo da pranzo fisso classico, 130 x 90 x 77 cm, quercia silvestre",
+      "brand": "Alkove",
+      "product_type": "TABLE",
+      "style": "Moderno",
+      "color": "Quercia Selvatica",
+      "material": "Quercia",
+      "main_image_id": "71rYJhm4VeL",
+      "other_image_ids": [
+        "31-awanPuYL",
+        "714gCiBtsWL",
+        "81+WPTDcr8L",
+        "51PEkJIQqCL",
+        "71VpOIAOkvL",
+        "71cqSoPgzJL",
+        "51KF0wug20L",
+        "71K3fqCCJyL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.it",
+      "node": [
+        "/Categorie/Arredamento/Sala da pranzo/Tavoli da sala da pranzo"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 30.314960599
+          },
+          "unit": "centimeters",
+          "value": 77
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 51.18110231
+          },
+          "unit": "centimeters",
+          "value": 130
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 35.43307083
+          },
+          "unit": "centimeters",
+          "value": 90
+        }
+      }
+    },
+    {
+      "item_id": "B07P5LLX43",
+      "item_name": "Amazon Brand – Stone & Beam Lauren Down Filled Oversized Ottoman with Hardwood Frame, 46.5\"W, Chocolate",
+      "brand": "Stone & Beam",
+      "product_type": "OTTOMAN",
+      "style": null,
+      "color": "Chocolate",
+      "material": null,
+      "main_image_id": "81vMWyVcKsL",
+      "other_image_ids": [
+        "917+VEfTYHL",
+        "71cmPSfkYoL",
+        "91CWn3f9swL",
+        "81dZRzWg7ML",
+        "B1PviewebZS"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Accent Furniture/Ottomans"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 18.9
+          },
+          "unit": "inches",
+          "value": 18.9
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 4.72
+          },
+          "unit": "inches",
+          "value": 4.72
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 47.24
+          },
+          "unit": "inches",
+          "value": 47.24
+        }
+      }
+    },
+    {
+      "item_id": "B0792PHPPH",
+      "item_name": "Amazon Brand – Stone & Beam Janelle Button Tufted Round Leather Wheeled Ottoman, 37\"W",
+      "brand": "Stone & Beam",
+      "product_type": "OTTOMAN",
+      "style": null,
+      "color": null,
+      "material": "stone",
+      "main_image_id": "91FFA4oDOrL",
+      "other_image_ids": [
+        "91w65yOHBCL",
+        "A1EopVOGB1L",
+        "A1+ZClLwkVL",
+        "A1TPKzjNcPL",
+        "91HoiXcNSXL",
+        "91WXGIa5sAL",
+        "91UkfPQ0qjL",
+        "A1TXiImKsUL",
+        "A1Pv1VZDHzL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Accent Furniture/Ottomans"
+      ],
+      "item_dimensions": null
+    },
+    {
+      "item_id": "B07SHYWXZ8",
+      "item_name": "Alkov modulär Stol (70 x 93) Turkos",
+      "brand": "Alkove",
+      "product_type": "SOFA",
+      "style": "Stol (70 x 93)",
+      "color": "Turkos",
+      "material": "tyg",
+      "main_image_id": "61SNAhNVpEL",
+      "other_image_ids": [
+        "71Itno08KUL",
+        "61kyuDrhWXL",
+        "81V-miC8+OL",
+        "61zMRjVL-eL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.se",
+      "node": [
+        "/Kategorier/Kök",
+        "/Kategorier/Möbler/Vardagsrumsmöbler/Soffor & divaner"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 12.992125971
+          },
+          "unit": "centimeters",
+          "value": 33
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 27.55905509
+          },
+          "unit": "centimeters",
+          "value": 70
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 36.614173191
+          },
+          "unit": "centimeters",
+          "value": 93
+        }
+      }
+    },
+    {
+      "item_id": "B082X3MMFS",
+      "item_name": "AmazonCommercial Silla ejecutiva ergonómica de Piel con Respaldo Alto con Brazos abatibles y Apoyo Lumbar (renovado)",
+      "brand": "AmazonCommercial",
+      "product_type": "CHAIR",
+      "style": "Ejecutivo",
+      "color": "Negro",
+      "material": "Cuero falso",
+      "main_image_id": "81uyGneBqbL",
+      "other_image_ids": [
+        "51yBN4fdw8L",
+        "61rR4wuRKyL",
+        "61OoPFwX1EL",
+        "61XR4XCeqeL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com.mx",
+      "node": [
+        "/Categorías/Muebles/Oficina/Sillas y Sofás/Sillas de Escritorio"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 44.75
+          },
+          "unit": "inches",
+          "value": 44.75
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 31
+          },
+          "unit": "inches",
+          "value": 31
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 28.5
+          },
+          "unit": "inches",
+          "value": 28.5
+        }
+      }
+    },
+    {
+      "item_id": "B07P6JV16D",
+      "item_name": "Amazon Brand – Rivet Emerly Modern Sofa, 83.5\"W, Steel Grey",
+      "brand": "Rivet",
+      "product_type": "SOFA",
+      "style": null,
+      "color": "Steel",
+      "material": "Wood",
+      "main_image_id": "812+VPBi1lL",
+      "other_image_ids": [
+        "A1FOTTeKAtL",
+        "91GGFynw-jL",
+        "91fkdZbrt1L",
+        "B1uBsrKEDFS",
+        "81YibMGxhoL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Sofas & Couches"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 34
+          },
+          "unit": "inches",
+          "value": 34
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 83.5
+          },
+          "unit": "inches",
+          "value": 83.5
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 35
+          },
+          "unit": "inches",
+          "value": 35
+        }
+      }
+    },
+    {
+      "item_id": "B07HPQ7HB5",
+      "item_name": "Amazon Brand - Alkove Elvas Hand-Crafted Leather Sofa, 2 Seater Maxi, 102 x 193 x 93cm, Taupe",
+      "brand": "Alkove",
+      "product_type": "SOFA",
+      "style": "Modern",
+      "color": "Ecru",
+      "material": "Leather",
+      "main_image_id": "71Sx3NvHueL",
+      "other_image_ids": [
+        "71peO3IhHHL",
+        "71Ku1JqRkKL",
+        "71z1ahJQMDL",
+        "710sJXLrlsL",
+        "81H4y6bkCML",
+        "81PUSI1UNXL",
+        "71M-edSc5SL",
+        "81l11xyJ1NL",
+        "71Fnjo+pwTL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.co.uk",
+      "node": [
+        "/Home & Garden/Home & Kitchen/Categories/Furniture/Living Room Furniture/Sofas & Couches"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 36.614173191
+          },
+          "unit": "centimeters",
+          "value": 93
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 40.157480274
+          },
+          "unit": "centimeters",
+          "value": 102
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 75.984251891
+          },
+          "unit": "centimeters",
+          "value": 193
+        }
+      }
+    },
+    {
+      "item_id": "B07KR89SZ1",
+      "item_name": "Arrow Swatch, Ravenna Home",
+      "brand": "Ravenna Home",
+      "product_type": "CHAIR",
+      "style": "Arrow",
+      "color": "Arrow",
+      "material": null,
+      "main_image_id": "A10K7AtMNjL",
+      "other_image_ids": [],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Chairs"
+      ],
+      "item_dimensions": null
+    },
+    {
+      "item_id": "B071PDYKYB",
+      "item_name": "Amazon Brand – Stone & Beam Lummi Modern Armless Living Room Accent Chair, 21.6\" W, Shell",
+      "brand": "Stone & Beam",
+      "product_type": "CHAIR",
+      "style": "Transitional",
+      "color": "Shell",
+      "material": "Polyester fabric; Wood frame",
+      "main_image_id": "91czg5Nkc5L",
+      "other_image_ids": [
+        "B1Pk6iJWjwS",
+        "A1haEnwAI0L",
+        "911oqA1ruVL",
+        "81tlsAF7uUL",
+        "B1N2ef3f+cS"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Chairs"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 32.7
+          },
+          "unit": "inches",
+          "value": 32.7
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 21.7
+          },
+          "unit": "inches",
+          "value": 21.7
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 29.9
+          },
+          "unit": "inches",
+          "value": 29.9
+        }
+      }
+    },
+    {
+      "item_id": "B07QC85X9C",
+      "item_name": "Amazon Brand – Ravenna Home Springdale Modern Bookcase with Decorative Open Sides, 30\"W, White",
+      "brand": "Ravenna Home",
+      "product_type": "DESK",
+      "style": "Bookcase",
+      "color": "White",
+      "material": "Engineered Wood",
+      "main_image_id": "71o4-1o39HL",
+      "other_image_ids": [
+        "21GPmhzt0hL",
+        "913oT8UMBiL",
+        "611pVFFeIFL",
+        "71nS0wG7B2L",
+        "61mGr7sVR4L"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Home Office Furniture/Home Office Desks"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 72
+          },
+          "unit": "inches",
+          "value": 72
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 30
+          },
+          "unit": "inches",
+          "value": 30
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 13.46
+          },
+          "unit": "inches",
+          "value": 13.46
+        }
+      }
+    },
+    {
+      "item_id": "B07CB54MM3",
+      "item_name": "Amazon Brand – Stone & Beam Bradbury Chesterfield Tufted Sofa Couch, 92.9\"W, Warm Grey",
+      "brand": "Stone & Beam",
+      "product_type": "SOFA",
+      "style": "Transitional",
+      "color": "Warm Grey",
+      "material": "stone",
+      "main_image_id": "81+NZPMuEeL",
+      "other_image_ids": [
+        "819WNU2+bcL",
+        "81DkjqR1RiL",
+        "A1qqhJwbF-L",
+        "A1DlYD78rBL",
+        "A1b2Gyca32L",
+        "81xmvD1obwL",
+        "A1hc9T34CXL",
+        "81edbLJsYxL",
+        "81dfkdZ2xiL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Sofas & Couches"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 35.5
+          },
+          "unit": "inches",
+          "value": 35.5
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 84.5
+          },
+          "unit": "inches",
+          "value": 84.5
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 38.5
+          },
+          "unit": "inches",
+          "value": 38.5
+        }
+      }
+    },
+    {
+      "item_id": "B07B4W5V3C",
+      "item_name": "Amazon Brand – Stone & Beam Tisbury Nailhead Trim Queen Bed, 66\"W, Curious Pearl",
+      "brand": "Stone & Beam",
+      "product_type": "BED",
+      "style": "beds",
+      "color": "Curious Pearl",
+      "material": "stone",
+      "main_image_id": "91qktrcsWgL",
+      "other_image_ids": [
+        "A1EuNs9SJ5L",
+        "91ENnjGFVjL",
+        "91-97z4+2wL",
+        "A1H7bZIrK8L",
+        "814uEeduegL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Bedroom Furniture/Beds, Frames & Bases/Beds"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 56
+          },
+          "unit": "inches",
+          "value": 56
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 66
+          },
+          "unit": "inches",
+          "value": 66
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 92
+          },
+          "unit": "inches",
+          "value": 92
+        }
+      }
+    },
+    {
+      "item_id": "B00GBUJF3G",
+      "item_name": "Strathwood All-Weather Wicker Deep Seating Outdoor Recliner",
+      "brand": "Strathwood by Amazon.com",
+      "product_type": "CHAIR",
+      "style": null,
+      "color": null,
+      "material": "Steel +Glass",
+      "main_image_id": "81Hnb-ty7sL",
+      "other_image_ids": [
+        "811MbP8rIVL",
+        "814PKSAFaSL",
+        "81-kY7sxkPL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Patio Furniture & Accessories/Patio Seating/Chairs/Lounge Chairs"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 38.5826784
+          },
+          "unit": "inches",
+          "value": 38.5826784
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 36.2204736
+          },
+          "unit": "inches",
+          "value": 36.2204736
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 26.3779536
+          },
+          "unit": "inches",
+          "value": 26.3779536
+        }
+      }
+    },
+    {
+      "item_id": "B07RHBHNC7",
+      "item_name": "Amazon Brand - Solimo Mars എഞ്ചിനീയേർഡ് വുഡ് ബെഡ്സൈഡ് ടേബിൾ ഡ്രോയറോടു കൂടിയത് (വെഞ്ച് ഫിനിഷ്)",
+      "brand": "Amazon Brand - Solimo",
+      "product_type": "TABLE",
+      "style": "സമകാലികം",
+      "color": "തവിട്ട്",
+      "material": "Engineered Wood",
+      "main_image_id": "81ucGjQVj-L",
+      "other_image_ids": [
+        "71hYD4HL2SL",
+        "61fVo3b-k0L",
+        "71Dkx3WaMNL",
+        "71atom1Xb1L",
+        "71q71xI8BDL",
+        "71VdxdZZpaL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.in",
+      "node": [
+        "/Categories/Furniture/Bedroom Furniture/Bedside Tables"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 18.30705
+          },
+          "unit": "millimeters",
+          "value": 465
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 16.9291
+          },
+          "unit": "millimeters",
+          "value": 430
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 14.1732
+          },
+          "unit": "millimeters",
+          "value": 360
+        }
+      }
+    },
+    {
+      "item_id": "B07TJVTZRF",
+      "item_name": "Amazon Brand - Movian Arendsee - Sedia da scrivania, 55 x 55 x 93 cm, bianco",
+      "brand": "Movian",
+      "product_type": "CHAIR",
+      "style": "Sedia da scrivania",
+      "color": "Bianco",
+      "material": "Plastica",
+      "main_image_id": "71542tkbxTL",
+      "other_image_ids": [
+        "41eAUDSITjL",
+        "517FGXjrzRL",
+        "41qUW+rlpcL",
+        "41Ep8qen+aL",
+        "61UKhJRd5WL",
+        "714sSBayWFL",
+        "61JpaoOTdTL",
+        "41Hkkzm09UL",
+        "51a84PylaBL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.it",
+      "node": [
+        "/Categorie/Arredamento/Studio/Sedie e Sgabelli/Sedie da scrivania"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 36.614173191
+          },
+          "unit": "centimeters",
+          "value": 93
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 22.047244072
+          },
+          "unit": "centimeters",
+          "value": 56
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 19.0944881695
+          },
+          "unit": "centimeters",
+          "value": 48.5
+        }
+      }
+    },
+    {
+      "item_id": "B082Q9C9YJ",
+      "item_name": "Amazon Brand – Stone & Beam Troy Upholstered Sofa Couch, 80\"W, Ash Gray",
+      "brand": "Stone & Beam",
+      "product_type": "SOFA",
+      "style": "Sofa",
+      "color": "Ash Gray",
+      "material": null,
+      "main_image_id": "81x8HCKePmL",
+      "other_image_ids": [
+        "91zWqo6woKL",
+        "81eUF8xqIxL",
+        "81dU8Y0ZSyL",
+        "81NKnft1zGL",
+        "81CwgdNX+mL",
+        "916oR5x7MWL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Sofas & Couches"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 34
+          },
+          "unit": "inches",
+          "value": 34
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 36
+          },
+          "unit": "inches",
+          "value": 36
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 80
+          },
+          "unit": "inches",
+          "value": 80
+        }
+      }
+    },
+    {
+      "item_id": "B07HSKY87X",
+      "item_name": "Amazon Brand – Rivet Modern End Table, 19.3 Inch Width, Natural and Gold",
+      "brand": "Rivet",
+      "product_type": "TABLE",
+      "style": "0",
+      "color": null,
+      "material": "Metal",
+      "main_image_id": "71cdMQWJEvL",
+      "other_image_ids": [
+        "714bjr8KlFL",
+        "71ZtlDcLwzL",
+        "A1zNcxxZ5+L",
+        "71ia2fS1bPL",
+        "A1i0qCOrb3L"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Tables/End Tables"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 27.8
+          },
+          "unit": "inches",
+          "value": 27.8
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 22.9
+          },
+          "unit": "inches",
+          "value": 22.9
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 20.7
+          },
+          "unit": "inches",
+          "value": 20.7
+        }
+      }
+    },
+    {
+      "item_id": "B07JGPK68C",
+      "item_name": "Marchio Amazon - Movian, credenza a 2 sportelli e 2 cassetti modello Lek, 100 x 119 x 40 cm, colore bianco",
+      "brand": "Movian",
+      "product_type": "CABINET",
+      "style": "credenza a 2 sportelli e 2 cassetti",
+      "color": "Bianco",
+      "material": null,
+      "main_image_id": "81Ru-n7yoRL",
+      "other_image_ids": [
+        "51DMXqQ34GL",
+        "614dBfBHbJL",
+        "71QBkP5vYqL",
+        "41xwXjma-TL",
+        "71FXcPI4TDL",
+        "71t3fEJ0HjL",
+        "51hkhLx2kML"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.it",
+      "node": [
+        "/Categorie/Arredamento/Sala da pranzo/Credenze e buffet"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 46.850393653
+          },
+          "unit": "centimeters",
+          "value": 119
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 39.3700787
+          },
+          "unit": "centimeters",
+          "value": 100
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 15.74803148
+          },
+          "unit": "centimeters",
+          "value": 40
+        }
+      }
+    },
+    {
+      "item_id": "B07SJ75Y1M",
+      "item_name": "Amazon Brand - Alkove Hayes Classic Fixed Solid Wood Dining Table, Seats 4-6, 130 x 90 x 75cm, Wild Oak",
+      "brand": "Alkove",
+      "product_type": "TABLE",
+      "style": "Modern",
+      "color": "Wild Oak",
+      "material": "Oak",
+      "main_image_id": "616xYvB4nFL",
+      "other_image_ids": [
+        "41VCyzGmKsL",
+        "71pw2BFQLhL",
+        "71zOpIcgGeL",
+        "51QN0JNRWWL",
+        "61eTNZyTLoL",
+        "41Bbo3MuIgL",
+        "91SxNCWrHHL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.co.uk",
+      "node": [
+        "/Home & Garden/Home & Kitchen/Categories/Furniture/Dining Room Furniture/Dining Tables"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 29.527559025
+          },
+          "unit": "centimeters",
+          "value": 75
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 51.18110231
+          },
+          "unit": "centimeters",
+          "value": 130
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 35.43307083
+          },
+          "unit": "centimeters",
+          "value": 90
+        }
+      }
+    },
+    {
+      "item_id": "B075NP5K3L",
+      "item_name": "Amazon merk - Movian Blankan - 3-zitsbank, 228 x 87 x 78 cm, lichtgrijs",
+      "brand": "Movian",
+      "product_type": "SOFA",
+      "style": "3-zitsbank.",
+      "color": "lichtgrijs",
+      "material": "Polyester",
+      "main_image_id": "51wViyaw-BL",
+      "other_image_ids": [
+        "61Lw8V0INiL",
+        "61Kr8N7cEZL",
+        "51KiZGNhm6L",
+        "71Eg0j0rrdL",
+        "61KS9DkQTfL",
+        "51UdWELKGBL",
+        "61c9x2z8wpL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.de",
+      "node": [
+        "/Kategorien/Möbel/Wohnzimmer/Sofas & Couches"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 30.708661386
+          },
+          "unit": "centimeters",
+          "value": 78
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 89.763779436
+          },
+          "unit": "centimeters",
+          "value": 228
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 34.251968469
+          },
+          "unit": "centimeters",
+          "value": 87
+        }
+      }
+    },
+    {
+      "item_id": "B082JH6LSF",
+      "item_name": "Amazon Brand – Stone & Beam Mid-Century 2-Drawer File Cabinet, 21.7\"W, Pine Finish",
+      "brand": "Stone & Beam",
+      "product_type": "CABINET",
+      "style": "Firm",
+      "color": "Brown",
+      "material": "Pine",
+      "main_image_id": "71S7YSK7N+L",
+      "other_image_ids": [
+        "81UHzzgAzFL",
+        "71CuUtfOPSL",
+        "81UQeN529cL",
+        "715Z2wdOYdL",
+        "71r1vmMRYoL",
+        "71vi9lvNM4L",
+        "71ICrRbV0pL",
+        "612a1DjoMuL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Home Office Furniture/Home Office Cabinets"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 23.6
+          },
+          "unit": "inches",
+          "value": 23.6
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 21.7
+          },
+          "unit": "inches",
+          "value": 21.7
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 15.4
+          },
+          "unit": "inches",
+          "value": 15.4
+        }
+      }
+    },
+    {
+      "item_id": "B001BQ1Q9G",
+      "item_name": "Pinzon Kinzie Leather Dining Chair, Cream",
+      "brand": "Pinzon by Amazon",
+      "product_type": "CHAIR",
+      "style": null,
+      "color": "Cream",
+      "material": "Leather",
+      "main_image_id": "61JeKISYELS",
+      "other_image_ids": [],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Kitchen & Dining Room Furniture/Chairs"
+      ],
+      "item_dimensions": null
+    },
+    {
+      "item_id": "B0728NWFGY",
+      "item_name": "Amazon Brand – Rivet Madison Modern Round Lift-Top Storage Tray Ottoman Pouf, 19.7\"W, Caviar",
+      "brand": "Rivet",
+      "product_type": "OTTOMAN",
+      "style": null,
+      "color": "Caviar",
+      "material": "Wood frame",
+      "main_image_id": "B13nlR1frXS",
+      "other_image_ids": [
+        "B1cW8g7CeSS",
+        "A1nQAhhi6eL",
+        "71Wtt56Vw0L",
+        "A1ERhr9bsbL",
+        "91bSrjEoAjL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Accent Furniture/Ottomans"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 16.5
+          },
+          "unit": "inches",
+          "value": 16.5
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 19.7
+          },
+          "unit": "inches",
+          "value": 19.7
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 19.7
+          },
+          "unit": "inches",
+          "value": 19.7
+        }
+      }
+    },
+    {
+      "item_id": "B07K4QZTNH",
+      "item_name": "Banco de parque",
+      "brand": "Amazon Basics",
+      "product_type": "BENCH",
+      "style": "PARK BENCH",
+      "color": null,
+      "material": "Steel",
+      "main_image_id": "71PLLdkPZzL",
+      "other_image_ids": [
+        "81ZzuYPu4lL",
+        "A1scTlAOBmL",
+        "71W1lX4Z9zL",
+        "71tzyYa4aGL",
+        "71zckLF93vL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com.mx",
+      "node": [
+        "/Categorías"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 22.8
+          },
+          "unit": "inches",
+          "value": 22.8
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 49.6
+          },
+          "unit": "inches",
+          "value": 49.6
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 31.5
+          },
+          "unit": "inches",
+          "value": 31.5
+        }
+      }
+    },
+    {
+      "item_id": "B07MM5H3HX",
+      "item_name": "Ravenna Home Classic Plank-Top Console Table with Large Drawer, 42\"W, Black Wood",
+      "brand": "Ravenna Home",
+      "product_type": "TABLE",
+      "style": null,
+      "color": null,
+      "material": null,
+      "main_image_id": "715LMwwxF7L",
+      "other_image_ids": [
+        "91qvy9m8BLL",
+        "71UkKKqWSdL",
+        "61PdDiIgvlL",
+        "7191rIp3OKL",
+        "21ISGzDAEGL"
+      ],
+      "marketplace": "Amazon",
+      "domain_name": "amazon.com",
+      "node": [
+        "/Categories/Furniture/Living Room Furniture/Tables/Sofa & Console Tables"
+      ],
+      "item_dimensions": {
+        "height": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 30
+          },
+          "unit": "inches",
+          "value": 30
+        },
+        "length": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 16
+          },
+          "unit": "inches",
+          "value": 16
+        },
+        "width": {
+          "normalized_value": {
+            "unit": "inches",
+            "value": 42
+          },
+          "unit": "inches",
+          "value": 42
+        }
+      }
+    }
+  ]
+}
