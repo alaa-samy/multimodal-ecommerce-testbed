@@ -14,6 +14,7 @@ export type Product = {
   image: string;
   gallery: string[];
   modelUrl?: string;
+  arStatus?: "available" | "demo" | "unavailable";
   source: "Amazon Berkeley Objects";
   datasetVersion: string;
   tags: string[];
@@ -31,7 +32,6 @@ export const CATALOG_META = {
 };
 
 const modelViewerChair = "https://modelviewer.dev/shared-assets/models/Chair.glb";
-const modelViewerAstronaut = "https://modelviewer.dev/shared-assets/models/Astronaut.glb";
 
 export const PRODUCTS: Product[] = [
   {
@@ -51,6 +51,7 @@ export const PRODUCTS: Product[] = [
       "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1000&q=88",
     ],
     modelUrl: modelViewerChair,
+    arStatus: "demo",
     source: "Amazon Berkeley Objects",
     datasetVersion: CATALOG_META.version,
     tags: ["sofa", "linen", "neutral", "living room", "family room"],
@@ -72,6 +73,7 @@ export const PRODUCTS: Product[] = [
     image: "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1000&q=88",
     gallery: ["https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1000&q=88"],
     modelUrl: modelViewerChair,
+    arStatus: "demo",
     source: "Amazon Berkeley Objects",
     datasetVersion: CATALOG_META.version,
     tags: ["chair", "boucle", "accent", "ivory", "reading nook"],
@@ -112,7 +114,7 @@ export const PRODUCTS: Product[] = [
     dimensions: "48\" W × 28\" D × 15\" H",
     image: "https://images.unsplash.com/photo-1532372576444-dda954194ad0?auto=format&fit=crop&w=1000&q=88",
     gallery: ["https://images.unsplash.com/photo-1532372576444-dda954194ad0?auto=format&fit=crop&w=1000&q=88"],
-    modelUrl: modelViewerAstronaut,
+    arStatus: "unavailable",
     source: "Amazon Berkeley Objects",
     datasetVersion: CATALOG_META.version,
     tags: ["coffee table", "oval", "cream", "contemporary", "living room"],
@@ -171,6 +173,7 @@ export const PRODUCTS: Product[] = [
     image: "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1000&q=88",
     gallery: ["https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1000&q=88"],
     modelUrl: modelViewerChair,
+    arStatus: "demo",
     source: "Amazon Berkeley Objects",
     datasetVersion: CATALOG_META.version,
     tags: ["sofa", "terracotta", "textured", "color", "small space"],
@@ -293,9 +296,9 @@ export function searchProducts(query: string, provider: ProviderId, category?: P
       const matches = terms.filter((term) => haystack.includes(term)).length;
       const visualBoost = provider === "unified_multimodal" ? (product.tags.some((tag) => normalized.includes(tag)) ? 2 : 0.5) : 0;
       const providerBoost = provider === "algolia" && product.featured ? 0.6 : provider === "meilisearch" && product.rating >= 4.7 ? 0.5 : 0;
-      return { product, score: matches * 3 + visualBoost + providerBoost + product.rating / 10 };
+      return { product, matches, score: matches * 3 + visualBoost + providerBoost + product.rating / 10 };
     })
-    .filter(({ score }) => score > 0.7)
+    .filter(({ matches }) => matches > 0)
     .sort((a, b) => b.score - a.score)
     .map(({ product }) => product);
 }

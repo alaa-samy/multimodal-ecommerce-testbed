@@ -20,4 +20,8 @@ describe("ABO catalog fixture", () => {
     expect(results.length).toBeGreaterThan(0);
     expect(results.some((product) => product.category === "Sofas")).toBe(true);
   });
+
+  it("leaves truly unknown queries empty for the similar-products layer", () => {
+    expect(searchProducts("purple spaceship", "unified_multimodal")).toHaveLength(0);
+  });
 });
