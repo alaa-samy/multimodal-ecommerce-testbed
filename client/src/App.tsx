@@ -36,13 +36,12 @@ function AppHeader({ provider, setProvider, cartCount }: { provider: ProviderId;
           <button className="transition-colors hover:text-[#d6533f]" onClick={() => navigate("/catalog")}>Shop all</button>
           <button className="transition-colors hover:text-[#d6533f]" onClick={() => navigate("/catalog?category=Sofas")}>Living room</button>
           <button className="transition-colors hover:text-[#d6533f]" onClick={() => navigate("/catalog?category=Chairs")}>Seating</button>
-          <button className="transition-colors hover:text-[#d6533f]" onClick={() => navigate("/experiments")}>Lab notes</button>
         </nav>
 
         <div className="flex items-center gap-2">
           <div className="relative hidden lg:block">
-            <label className="sr-only" htmlFor="provider-select">Active search provider</label>
-            <select id="provider-select" value={provider} onChange={(event) => setProvider(event.target.value as ProviderId)} className="h-10 appearance-none rounded-full border border-[#e3dcd2] bg-white px-4 pr-9 text-xs font-semibold text-[#6f655c] outline-none transition hover:border-[#d6533f] focus:ring-2 focus:ring-[#d6533f]/20">
+            <label className="sr-only" htmlFor="provider-select">Research search provider</label>
+            <select id="provider-select" title="Research control: choose the search provider used for ranking" aria-label="Research search provider" value={provider} onChange={(event) => setProvider(event.target.value as ProviderId)} className="h-10 appearance-none rounded-full border border-[#e3dcd2] bg-white px-4 pr-9 text-xs font-semibold text-[#6f655c] outline-none transition hover:border-[#d6533f] focus:ring-2 focus:ring-[#d6533f]/20">
               {PROVIDERS.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}
             </select>
             <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[10px] text-[#9b8c80]">⌄</span>
@@ -52,7 +51,7 @@ function AppHeader({ provider, setProvider, cartCount }: { provider: ProviderId;
           <button className="flex h-10 w-10 items-center justify-center rounded-full border border-transparent text-[#6f655c] transition hover:border-[#e3dcd2] hover:bg-white hover:text-[#d6533f] md:hidden" onClick={() => setMenuOpen((open) => !open)} aria-label="Toggle menu"><span className="text-lg">☰</span></button>
         </div>
       </div>
-      {menuOpen && <div className="border-t border-[#e8e1d8] bg-[#f8f6f1] px-5 py-4 md:hidden"><div className="flex flex-col gap-3 text-sm font-semibold text-[#6f655c]"><button className="text-left" onClick={() => { navigate("/catalog"); setMenuOpen(false); }}>Shop all</button><button className="text-left" onClick={() => { navigate("/catalog?category=Sofas"); setMenuOpen(false); }}>Living room</button><button className="text-left" onClick={() => { navigate("/experiments"); setMenuOpen(false); }}>Lab notes</button></div></div>}
+      {menuOpen && <div className="border-t border-[#e8e1d8] bg-[#f8f6f1] px-5 py-4 md:hidden"><div className="flex flex-col gap-3 text-sm font-semibold text-[#6f655c]"><button className="text-left" onClick={() => { navigate("/catalog"); setMenuOpen(false); }}>Shop all</button><button className="text-left" onClick={() => { navigate("/catalog?category=Sofas"); setMenuOpen(false); }}>Living room</button></div></div>}
     </header>
   );
 }
