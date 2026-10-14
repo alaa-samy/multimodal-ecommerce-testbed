@@ -5,7 +5,8 @@ describe("ABO catalog fixture", () => {
   it("contains stable dataset metadata and product IDs", () => {
     expect(CATALOG_META.source).toBe("Amazon Berkeley Objects");
     expect(CATALOG_META.license).toBe("CC BY 4.0");
-    expect(PRODUCTS.every((product) => product.id.startsWith("ABO-"))).toBe(true);
+    expect(PRODUCTS.length).toBeGreaterThanOrEqual(100);
+    expect(PRODUCTS.every((product) => /^[A-Z0-9]+$/.test(product.id))).toBe(true);
     expect(new Set(PRODUCTS.map((product) => product.id)).size).toBe(PRODUCTS.length);
   });
 

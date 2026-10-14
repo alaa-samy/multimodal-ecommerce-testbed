@@ -3,7 +3,7 @@
 
 The full ABO image and 3D archives are intentionally not downloaded by this project.
 Usage:
-  python scripts/prepare_abo_fixture.py /path/to/abo-listings.tar data/abo-furniture-manifest.json --limit 48
+  python scripts/prepare_abo_fixture.py /path/to/abo-listings.tar data/abo-furniture-manifest.json --limit 120
 """
 from __future__ import annotations
 
@@ -57,7 +57,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("archive", type=Path)
     parser.add_argument("output", type=Path)
-    parser.add_argument("--limit", type=int, default=48)
+    parser.add_argument("--limit", type=int, default=120)
     args = parser.parse_args()
 
     found: list[dict] = []
@@ -84,7 +84,7 @@ def main() -> None:
     payload = {
         "source": "Amazon Berkeley Objects",
         "license": "CC BY 4.0",
-        "fixture_version": "abo-furniture-fixture-v0.1",
+        "fixture_version": "abo-furniture-fixture-v0.2-120",
         "archive_used": "abo-listings.tar",
         "downloaded_media": False,
         "note": "Metadata-only fixture. Full ABO image and 3D archives are intentionally not included.",

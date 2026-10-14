@@ -3,7 +3,7 @@ import { Route, Switch, useLocation } from "wouter";
 import { Toaster, toast } from "sonner";
 import { Search, ShoppingBag, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { PRODUCTS, PROVIDERS, type Product, type ProviderId } from "@shared/catalog";
+import { CATALOG_META, PRODUCTS, PROVIDERS, type Product, type ProviderId } from "@shared/catalog";
 import Home from "@/pages/Home";
 import Catalog from "@/pages/Catalog";
 import ProductPage from "@/pages/Product";
@@ -86,7 +86,7 @@ function App() {
             <Route path="/experiments"><Experiments provider={provider} setProvider={setProvider} /></Route>
             <Route component={NotFound} />
           </Switch>
-          <footer className="border-t border-[#e8e1d8] bg-[#25211e] px-5 py-12 text-[#e8e1d8] lg:px-10"><div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-8 md:flex-row"><div><p className="font-display text-2xl tracking-[-0.04em]">Common Room</p><p className="mt-2 max-w-sm text-sm leading-6 text-[#b9aaa0]">A controlled commerce testbed for multimodal product discovery. Powered by an ABO fixture catalog.</p></div><div className="text-sm text-[#b9aaa0]"><p className="font-semibold text-[#f8f6f1]">Dataset note</p><p className="mt-2 max-w-xs leading-6">Amazon Berkeley Objects · CC BY 4.0 · abo-furniture-fixture-v0.1</p></div></div></footer>
+          <footer className="border-t border-[#e8e1d8] bg-[#25211e] px-5 py-12 text-[#e8e1d8] lg:px-10"><div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-8 md:flex-row"><div><p className="font-display text-2xl tracking-[-0.04em]">Common Room</p><p className="mt-2 max-w-sm text-sm leading-6 text-[#b9aaa0]">A controlled commerce testbed for multimodal product discovery. Powered by an ABO fixture catalog.</p></div><div className="text-sm text-[#b9aaa0]"><p className="font-semibold text-[#f8f6f1]">Dataset note</p><p className="mt-2 max-w-xs leading-6">Amazon Berkeley Objects · CC BY 4.0 · {CATALOG_META.version}</p></div></div></footer>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
