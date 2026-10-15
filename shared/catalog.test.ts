@@ -24,6 +24,13 @@ describe("ABO catalog fixture", () => {
     expect(results.some((product) => product.category === "Sofas")).toBe(true);
   });
 
+  it("includes beds and supports color-specific search", () => {
+    expect(PRODUCTS.some((product) => product.category === "Beds")).toBe(true);
+    const navy = searchProducts("navy", "unified_multimodal");
+    expect(navy.length).toBeGreaterThan(0);
+    expect(navy.every((product) => product.color.toLowerCase().includes("navy") || product.tags.some((tag) => tag.includes("navy")))).toBe(true);
+  });
+
   it("leaves truly unknown queries empty for the similar-products layer", () => {
     expect(searchProducts("purple spaceship", "unified_multimodal")).toHaveLength(0);
   });
