@@ -1,9 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createElement } from "react";
 
 export default function ModelViewer({ src, alt }: { src: string; alt: string }) {
   const [ready, setReady] = useState(false);
   const [failed, setFailed] = useState(false);
+  const viewerRef = useRef<HTMLElement | null>(null);
+  const aboPath = src.match(/\/original\/([0-9a-f])\/([A-Za-z0-9]+)\.glb$/i);
+  const browserSrc = aboPath ? `/api/abo-model/${aboPath[1]}/${aboPath[2]}.glb` : src;
 
   useEffect(() => {
     if (customElements.get("model-viewer")) {
@@ -18,11 +21,21 @@ export default function ModelViewer({ src, alt }: { src: string; alt: string }) 
     document.head.appendChild(script);
   }, []);
 
+  useEffect(() => {
+    setFailed(false);
+    const viewer = viewerRef.current;
+    if (!viewer) return;
+    const handleError = () => setFailed(true);
+    viewer.addEventListener("error", handleError);
+    return () => viewer.removeEventListener("error", handleError);
+  }, [src, ready]);
+
   if (failed) return <div className="flex min-h-[420px] flex-col items-center justify-center bg-[#ede6dc] px-8 text-center text-sm text-[#8d8074]"><strong className="text-[#25211e]">3D viewer could not load</strong><span className="mt-2">The ABO catalog image is still available. Try again on a connection that allows the model-viewer module.</span></div>;
   if (!ready) return <div className="flex min-h-[420px] items-center justify-center bg-[#ede6dc] text-sm text-[#8d8074]">Loading product 3D preview…</div>;
 
   return <div className="relative h-full min-h-[420px] rounded-[30px] bg-[#ede6dc]">{createElement("model-viewer", {
-    src,
+    ref: viewerRef,
+    src: browserSrc,
     alt,
     "camera-controls": true,
     "auto-rotate": true,
@@ -31,7 +44,7 @@ export default function ModelViewer({ src, alt }: { src: string; alt: string }) 
     "ar-scale": "fixed",
     "shadow-intensity": "1",
     exposure: "0.9",
-    style: { width: "100%", height: "100%", minHeight: "420px" },
+    style: { display: "block", width: "100%", height: "420px" },
     onError: () => setFailed(true),
   }, createElement("button", {
     slot: "ar-button",
