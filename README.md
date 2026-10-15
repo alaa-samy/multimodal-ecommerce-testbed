@@ -7,7 +7,7 @@ This is intentionally a **search composer**, not a general chat thread. Search i
 
 ## AR status model
 
-Products distinguish `available`, `demo`, and `unavailable` AR assets. The current fixture contains demo geometry only for selected products; it is labeled as demo and must not be interpreted as product-specific AR. Product-specific AR becomes available after adding verified ABO GLB/USDZ URLs to the media manifest.
+The storefront catalog is intentionally strict: it only includes common furniture products with non-empty material, complete dimensions, and a verified product-specific ABO GLB. Every visible product therefore has `arStatus: "available"`; incomplete or non-AR records are excluded before rendering. Android/Chrome devices can launch the GLB through Scene Viewer/WebXR where supported, while desktop browsers provide the 3D preview.
 
 ## Similar-product fallback
 

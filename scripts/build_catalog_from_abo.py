@@ -18,6 +18,7 @@ CATEGORY_MAP = {
     "DRESSER": "Storage", "OTTOMAN": "Sofas", "BENCH": "Sofas", "STOOL": "Chairs",
     "FURNITURE": "Storage",
 }
+ELIGIBLE_TYPES = {"SOFA", "CHAIR", "TABLE", "DESK", "BED", "MATTRESS", "CABINET", "BOOKCASE", "DRESSER", "OTTOMAN", "BENCH", "STOOL", "FURNITURE"}
 
 
 def image_url(image_id: str | None) -> str:
@@ -48,6 +49,18 @@ def compact_dimensions(raw: dict | None) -> str:
         unit = part.get("unit", "")
         return f"{number:g} {unit}" if isinstance(number, (int, float)) else "?"
     return f"{value('width')} W × {value('length')} D × {value('height')} H"
+
+
+def has_required_catalog_data(record: dict) -> bool:
+    product_type = (record.get("product_type") or "").upper()
+    material = (record.get("material") or "").strip()
+    dimensions = record.get("item_dimensions") or {}
+    return (
+        product_type in ELIGIBLE_TYPES
+        and bool(material)
+        and material.lower() != "not specified"
+        and all(dimensions.get(key, {}).get("value") is not None for key in ("width", "length", "height"))
+    )
 
 
 def stable_price(item_id: str, category: str) -> int:
@@ -103,8 +116,9 @@ def ts(value: object) -> str:
 
 
 def write_catalog(products: list[dict], output: Path) -> None:
-    header = '''export type ProviderId = "native" | "meilisearch" | "algolia" | "unified_multimodal";\n\nexport type Product = {\n  id: string;\n  title: string;\n  brand: string;\n  category: "Sofas" | "Chairs" | "Tables" | "Storage" | "Beds";\n  description: string;\n  price: number;\n  color: string;\n  material: string;\n  style: string;\n  dimensions: string;\n  image: string;\n  gallery: string[];\n  modelUrl?: string;\n  arStatus?: "available" | "demo" | "unavailable";\n  source: "Amazon Berkeley Objects";\n  datasetVersion: string;\n  tags: string[];\n  rating: number;\n  reviews: number;\n  featured?: boolean;\n};\n\nexport const CATALOG_META = {\n  name: "Amazon Berkeley Objects furniture catalog",\n  source: "Amazon Berkeley Objects",\n  version: "abo-furniture-fixture-v0.2-120",\n  license: "CC BY 4.0",\n  note: "120 real ABO furniture metadata records with remote catalog images and verified remote GLB mappings where available. Prices are clearly marked research-fixture estimates because ABO listings metadata does not include prices.",\n  recordCount: 120,\n};\n\nexport const PRODUCTS: Product[] = '''
+    header = '''export type ProviderId = "native" | "meilisearch" | "algolia" | "unified_multimodal";\n\nexport type Product = {\n  id: string;\n  title: string;\n  brand: string;\n  category: "Sofas" | "Chairs" | "Tables" | "Storage" | "Beds";\n  description: string;\n  price: number;\n  color: string;\n  material: string;\n  style: string;\n  dimensions: string;\n  image: string;\n  gallery: string[];\n  modelUrl?: string;\n  arStatus?: "available" | "demo" | "unavailable";\n  source: "Amazon Berkeley Objects";\n  datasetVersion: string;\n  tags: string[];\n  rating: number;\n  reviews: number;\n  featured?: boolean;\n};\n\nexport const CATALOG_META = {\n  name: "Amazon Berkeley Objects furniture catalog",\n  source: "Amazon Berkeley Objects",\n  version: "abo-furniture-fixture-v0.3-ar-ready",\n  license: "CC BY 4.0",\n  note: "Only eligible furniture records with material, dimensions, and verified official ABO GLB models are shown. Prices are clearly marked research-fixture estimates because ABO listings metadata does not include prices.",\n  recordCount: RECORD_COUNT,\n};\n\nexport const PRODUCTS: Product[] = '''
     body = ts(products)
+    header = header.replace("RECORD_COUNT", str(len(products)))
     footer = ''';\n\nexport const PROVIDERS: { id: ProviderId; label: string; detail: string; color: string }[] = [\n  { id: "unified_multimodal", label: "Unified Multimodal", detail: "Text + image + voice", color: "coral" },\n  { id: "native", label: "Native keyword", detail: "Catalog text baseline", color: "slate" },\n  { id: "meilisearch", label: "Meilisearch", detail: "Open-source semantic baseline", color: "blue" },\n  { id: "algolia", label: "Algolia", detail: "Hosted search competitor", color: "violet" },\n];\n\nexport function searchProducts(query: string, provider: ProviderId, category?: Product["category"] | "All") {\n  const normalized = query.trim().toLowerCase();\n  const terms = normalized.split(/\\s+/).filter(Boolean);\n  const pool = category && category !== "All" ? PRODUCTS.filter((product) => product.category === category) : PRODUCTS;\n  if (!normalized) return pool;\n\n  return pool\n    .map((product) => {\n      const haystack = [product.title, product.brand, product.category, product.description, product.color, product.material, product.style, ...product.tags].join(" ").toLowerCase();\n      const matches = terms.filter((term) => haystack.includes(term)).length;\n      const visualBoost = provider === "unified_multimodal" ? (product.tags.some((tag) => normalized.includes(tag)) ? 2 : 0.5) : 0;\n      const providerBoost = provider === "algolia" && product.featured ? 0.6 : provider === "meilisearch" && product.rating >= 4.7 ? 0.5 : 0;\n      return { product, matches, score: matches * 3 + visualBoost + providerBoost + product.rating / 10 };\n    })\n    .filter(({ matches }) => matches > 0)\n    .sort((a, b) => b.score - a.score)\n    .map(({ product }) => product);\n}\n'''
     output.write_text(header + body + footer, encoding="utf-8")
 
@@ -119,9 +133,9 @@ def main() -> None:
     ids = [record["item_id"] for record in records]
     with ThreadPoolExecutor(max_workers=16) as executor:
         model_flags = list(executor.map(has_remote_model, ids))
-    products = [to_product(record, flag, index) for index, (record, flag) in enumerate(zip(records, model_flags))]
+    products = [to_product(record, True, index) for index, (record, flag) in enumerate(zip(records, model_flags)) if flag and has_required_catalog_data(record)]
     write_catalog(products, args.output)
-    print(f"Generated {len(products)} products; {sum(model_flags)} verified remote GLB models")
+    print(f"Generated {len(products)} eligible products; {sum(model_flags)} verified remote GLB models; excluded {len(records) - len(products)} incomplete or non-AR records")
 
 
 if __name__ == "__main__":
