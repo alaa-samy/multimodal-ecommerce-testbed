@@ -1,0 +1,7 @@
+{
+  "buildCommand": "vite build",
+  "outputDirectory": "dist/public",
+  "framework": "vite",
+  "cleanUrls": true,
+  "trailingSlash": false
+}
